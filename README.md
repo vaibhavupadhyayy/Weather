@@ -32,6 +32,3 @@ You can access the live demo of the app [here](https://vaibhavupadhyayy.github.i
 3. Allow location access if prompted or search for a city to get its weather information.
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
