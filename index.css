@@ -9,24 +9,25 @@ body {
   background-color: #222;
 }
 
-.body{
-    height: 90vh;
+.body {
+  height: 90vh;
 }
 
 .card {
-  width: 190%;
+  width: 90%; /* Adjusted width for responsiveness */
   max-width: 470px;
   color: #fff;
   background: linear-gradient(135deg, #00feba, #5b548a);
   border-radius: 10px;
   margin: 10px auto 0;
-  padding: 40px 35px;
+  padding: 40px 20px; /* Adjusted padding for responsiveness */
   text-align: center;
 }
 
 .search {
   width: 100%;
   display: flex;
+  flex-wrap: wrap; /* Added for responsiveness */
   align-items: center;
   justify-content: space-between;
 }
@@ -36,12 +37,12 @@ body {
   outline: 0;
   background: #ebfffc;
   color: #555;
-  padding: 10px 25px;
-  height: 60px;
+  padding: 10px;
+  height: 50px; /* Adjusted height for responsiveness */
   flex: 1;
   border-radius: 10px;
-  margin-right: 16px;
-  font-size: 18px;
+  margin-bottom: 10px; /* Added for responsiveness */
+  font-size: 16px; /* Adjusted font size for responsiveness */
 }
 
 .search button {
@@ -50,35 +51,28 @@ body {
   background: #ebfffc;
   cursor: pointer;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-}
-
-.search button image {
-  width: 16px;
+  width: 50px; /* Adjusted width for responsiveness */
+  height: 50px; /* Adjusted height for responsiveness */
 }
 
 .weather-icon {
-  width: 170px;
+  width: 100%; /* Adjusted width for responsiveness */
+  max-width: 170px; /* Added max-width for responsiveness */
   margin-top: 30px;
 }
 
 .weather h1 {
-  font-size: 80px;
-  font-weight: 500px;
-}
-
-.weather h1 {
   font-size: 40px;
-  font-weight: 400px;
+  font-weight: 400;
   margin-top: -10px;
 }
 
 .details {
   display: flex;
+  flex-wrap: wrap; /* Added for responsiveness */
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 10px; /* Adjusted padding for responsiveness */
   margin-top: 50px;
 }
 
@@ -89,30 +83,26 @@ body {
 }
 
 .col img {
-  width: 40px;
-
-  margin-right: 10px;
+  width: 30px; /* Adjusted width for responsiveness */
+  margin-right: 5px; /* Adjusted margin for responsiveness */
 }
 
 .humidity,
 .wind {
-  font-size: 28px;
+  font-size: 16px; /* Adjusted font size for responsiveness */
   margin-top: -6px;
-}
-
-.weather {
-  display: none;
 }
 
 .error {
   text-align: left;
   margin-left: 10px;
-  font-size: 14px;
+  font-size: 12px; /* Adjusted font size for responsiveness */
   margin-top: 10px;
   display: none;
 }
+
 footer {
-    display: flex;
+  display: flex;
   height: 6vh;
   justify-content: center;
   text-align: center;
